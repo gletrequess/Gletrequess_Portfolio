@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Découvrez mes compétences en design et graphisme ! Je suis Guillaume Le Trequesser, étudiant en MMI, spécialisé en design et graphisme. Actuellement à la recherche d'un stage en graphisme ou UI-UX design à partir d'avril 2024, je vous invite à explorer mes projets et à trouver comment me contacter."
+    />
+    <meta
+      name="keywords"
+      content="Design, Graphisme, UI-UX, portfolio, MMI, Stage, Recherche"
+    />
+    <meta name="author" content="Guillaume Le Trequesser" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guillaume Le Trequesser | Portfolio</title>
+    <link rel="shortcut icon" type="x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <span id="circle" class="circle"></span>
+    <header>
+      <nav>
+        <a id="logo" href="#"></a>
+        <button id="burger-menu" aria-label="Ouvrir menu burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+
+        <div id="burger-content">
+          <a href="index.html#projets">Mes projets</a>
+          <a href="index.html#competences">Mes compétences</a>
+          <a href="index.html#a-propos">Qui suis-je ?</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div id="menu">
+          <a href="index.html#projets">Mes projets</a>
+          <a href="index.html#competences">Mes compétences</a>
+          <a href="index.html#a-propos">Qui suis-je ?</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="accueil">
+        <div id="text-anim">
+          <div id="home-text">
+            <video
+              src="./images/nommotiondesigngletrequess.mp4"
+              autoplay muted
+            ></video>
+          </div>
+        </div>
+      </section>
+
+      <div id="main-content">
+        <section id="projets">
+          <h1>MES PROJETS</h1>
+          <div id="projets-content" class="projects-container">
+            <div id="categories">
+              <button class="active" data-filter="all">TOUS</button>
+
+              <button data-filter="design">Design</button>
+              <button data-filter="web-dev">Développement</button>
+              <button data-filter="ui-ux">UI/UX</button>
+            </div>
+
+            <div id="liste-projets">
+              <div
+                class="projet"
+                id="refonte-cine-104"
+                data-categories="web-dev ui-ux design"
+              >
+                <a href="lfadc.html">
+                  <img
+                    src="images/lfadc/projet-lfadc.webp"
+                    alt="Refonte Le Futur à déjà commencé"
+                  />
+                  <div class="projet-desc">
+                    <h2>Projet Co | Refonte site LFADC</h2>
+                    <p>Design & Dév Web & UI/UX | Janvier 2024</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="projet" id="motion-design" data-categories="design">
+                <a href="motion-design.html">
+                  <img
+                    src="images/motion-design/projet-motion.webp"
+                    alt="Image du Motion Design"
+                  />
+                  <div class="projet-desc">
+                    <h2>Essai Motion-Design</h2>
+                    <p>Design | Décembre 2023</p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="projet" id="tavue" data-categories="design ui-ux">
+                <a href="tavue.html">
+                  <img src="images/tavue/projet-tavue.webp" alt="Tavue" />
+                  <div class="projet-desc">
+                    <h2>TaVue</h2>
+                    <p>UI/UX & Design | Octobre 2023</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="competences">
+          <h1>COMPÉTENCES</h1>
+          <div class="skill-slider" id="skills"></div>
+          <div class="skill-slider" id="software"></div>
+        </section>
+
+        <section id="a-propos">
+          <h1>QUI SUIS-JE ?</h1>
+          <div id="a-propos-content">
+            <img src="images/imageprofil.jpg" alt="Guillaume Le Trequesser" />
+
+            <div id="infos">
+              <p>
+                Je m'appelle Guillaume Le Trequesser, étudiant en 2ème année MMI
+                à Montbéliard, spécialisé en Création Numérique. Mon parcours
+                explore la conception digitale, de la création graphique à la
+                programmation web. Passionné par l'innovation et l'expression
+                créative, je recherche constamment de nouveaux défis.<br /><br />
+                Actuellement à la recherche d'un stage rémunéré de 10 semaines,
+                d'avril à juin, je suis désireux d'acquérir une expérience
+                pratique dans le domaine du UI-UX design ou du graphisme.
+                Disponible et motivé, je suis prêt à mettre mes compétences au
+                service d'une équipe dynamique pour contribuer efficacement à
+                des projets stimulants.
+              </p>
+              <a
+                href="images/CVGuillaumeLeTrequesser.pdf"
+                id="cv"
+                target="_blank"
+                >Curriculum Vitae</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h1>CONTACT</h1>
+          <div id="moyen-contact">
+            <a
+              class="btn-contact"
+              id="mail"
+              href="mailto:Guillaume.letrequesser@gmail.com"
+            >
+              <img src="images/mail.webp" alt="Icône mail" />
+              Guillaume.letrequesser@gmail.com
+            </a>
+
+            <a
+              class="btn-contact"
+              id="linkedin"
+              href="https://www.linkedin.com/in/guillaume-le-trequesser-6a6585256/"
+              target="_blank"
+            >
+              <img src="images/linkedin.webp" alt="Icône LinkedIn" />
+              Guillaume Le Trequesser
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>Guillaume Le Trequesser © 2024 - Tout droits réservés -&nbsp;</p>
+      <a id="link-ml" href="mentions-legales.html">Mentions légales</a>
+    </footer>
+  </body>
+</html>
