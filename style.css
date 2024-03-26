@@ -840,6 +840,10 @@ footer {
   background-image: url("images/tavue/banner-tavue.webp");
 }
 
+#banner-cumpanis {
+  background-image: url("images/cumpanis/banner-cumpanis.webp");
+}
+
 .desc-projet {
   display: flex;
   gap: 70px;
