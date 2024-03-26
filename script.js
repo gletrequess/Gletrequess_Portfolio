@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var mouseX = 0, mouseY = 0;
 
   document.addEventListener("mousemove", function(e){
-    mouseX = e.pageX - (circle.offsetWidth / 2);
-    mouseY = e.pageY - (circle.offsetHeight / 2); 
+    mouseX = e.pageX - (circle.offsetWidth / 0);
+    mouseY = e.pageY - (circle.offsetHeight / 0); 
   });
 
   document.addEventListener("scroll", function(e) {
